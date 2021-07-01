@@ -16,7 +16,7 @@ header{
   
 }
 #h1 p{
-  font-family:'Pacifico', cursive; 
+  font-family:'Yellowtail', cursive;
 ;
 
 }
@@ -44,15 +44,86 @@ hr.new4 {
   color: gray;
   border: inherit;
   padding: 4%;
-  text-align: inherit;
+  text-align: justify;
+  text-indent: 30px;
   line-height: 20px;
-
+  margin-bottom: 3%;
+  clear: both;
 }
 
 #text :first-child{
   margin-bottom: 3%;
+} 
+
+#text :last-child{
+  margin-top: 3%;
 }
 
+
+
+#amanda1{
+  /* display: inline-block; */
+  clear: both;
+  margin-left: 1%;
+  margin-bottom: 20%;
+
+}
+
+#amanda1 p{
+  margin-left: 1%;
+  padding: 10%;
+  margin-top: -17%;
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+ 
+}
+#amanda1 img{
+ margin-top: 3%;
+
+
+}
+button{
+
+  color: white;
+  background-color: red;
+  margin-left: 80%;
+  border-color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+} 
+
+#left{
+  margin-top: -33%;
+  margin-bottom: 10%;
+ 
+}
+ 
+footer{
+  clear: both;
+  margin-top: -3%;
+ text-align: center;
+ color: gray;
+
+
+hr.type_5 {
+  border: 0;
+  height: 55px;
+  background-image: url(image/type_5.png);
+  background-repeat: no-repeat;
+ 
+}
+
+
+     
+footer p{
+  line-height: 30px;
+  color: gray;
+}
 
 
 
