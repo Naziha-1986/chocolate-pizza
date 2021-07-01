@@ -17,26 +17,28 @@ header{
 }
 #h1 p{
   font-family:'Yellowtail', cursive;
-;
-
 }
 
-hr.new4 {
-    border: 1px solid rgb(14, 13, 13);
-  }
-  
+
+
+.slash {
+  background-image: url("/img/hr-img.png");
+  height: 20px;
+}
+
 #h2{
   
   float:right
 }
 
-  #h3{
+#h3{
     margin-bottom: 1%;
   }
+
 #h3 img{
   display: inline-block;
   float: right;
-  width: auto;
+  
 }
 
 
@@ -60,9 +62,52 @@ hr.new4 {
 }
 
 
+#listm div {
+   /* list-style-type: none;  */
+  width: 100%;
+  size: 30%;
+  padding: 0px;
+  margin-top: 0%;
+  margin-bottom: -15%;
+  float: left;
+}
+
+
+#list1{
+  float: left;
+  width: 16em;
+  margin-right: 40em;
+  
+  margin-bottom: 0;
+
+
+}
+
+ 
+#listm{
+  width: 100%;
+}
+
+#list2{
+ 
+  
+  width: 16em;
+  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: right;
+  margin-right: 20em;
+  
+
+}
+
+
+
+
+
 
 #amanda1{
-  /* display: inline-block; */
+ 
   clear: both;
   margin-left: 1%;
   margin-bottom: 20%;
@@ -79,10 +124,12 @@ hr.new4 {
  
 }
 #amanda1 img{
- margin-top: 3%;
+ margin-top: 10%;
 
 
 }
+
+
 button{
 
   color: white;
@@ -102,6 +149,7 @@ button{
   margin-bottom: 10%;
  
 }
+
  
 footer{
   clear: both;
@@ -109,13 +157,13 @@ footer{
  text-align: center;
  color: gray;
 
-
-hr.type_5 {
-  border: 0;
-  height: 55px;
-  background-image: url(image/type_5.png);
-  background-repeat: no-repeat;
  
+hr.type_5 {
+  /* border: 0; */
+  height: 20px;
+  background-image: url("/image/hr-img.png");
+  /* background-repeat: no-repeat;
+  */
 }
 
 
@@ -123,8 +171,8 @@ hr.type_5 {
 footer p{
   line-height: 30px;
   color: gray;
-}
+} */
 
-
+ 
 
 
