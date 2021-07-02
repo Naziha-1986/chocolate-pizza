@@ -9,6 +9,8 @@ header{
     margin-bottom: 3%;
     
 }
+
+
 #h1 img{
   display: inline-block;
   float: left;
@@ -51,6 +53,7 @@ header{
   line-height: 20px;
   margin-bottom: 3%;
   clear: both;
+ 
 }
 
 #text :first-child{
@@ -62,17 +65,39 @@ header{
 }
 
 
+
+#back{
+  background-image: url('/img/list-bg.png');
+  height: 200px;
+
+ }
+ #list1{
+   display: inline-block;
+   /* width: 34%; */
+ float: left;
+   padding: 40px;
+   width: 34em;
+   line-height: 20px;
+ }
+#list2{
+ float: right;
+ padding: 40px;
+ width: 34em;
+ line-height: 20px;
+}
+
+/* 
 #listm div {
-   /* list-style-type: none;  */
+  
   width: 100%;
   size: 30%;
   padding: 0px;
   margin-top: 0%;
   margin-bottom: -15%;
   float: left;
-}
+} */
 
-
+/* 
 #list1{
   float: left;
   width: 16em;
@@ -81,9 +106,9 @@ header{
   margin-bottom: 0;
 
 
-}
+} */
 
- 
+/*  
 #listm{
   width: 100%;
 }
@@ -97,10 +122,9 @@ header{
   margin-bottom: 0;
   float: right;
   margin-right: 20em;
-  
 
-}
 
+} */
 
 
 
@@ -124,7 +148,7 @@ header{
  
 }
 #amanda1 img{
- margin-top: 10%;
+ margin-top: 7%;
 
 
 }
@@ -141,6 +165,7 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-top: -22px;
 
 } 
 
@@ -157,11 +182,11 @@ footer{
  text-align: center;
  color: gray;
 
- 
+}
 hr.type_5 {
   /* border: 0; */
   height: 20px;
-  background-image: url("/image/hr-img.png");
+  background-image: url("image/hr-img.png");
   /* background-repeat: no-repeat;
   */
 }
@@ -171,7 +196,8 @@ hr.type_5 {
 footer p{
   line-height: 30px;
   color: gray;
-} */
+
+} 
 
  
 
