@@ -67,7 +67,7 @@ header{
 
 
 #back{
-  background-image: url('img/list-bg.png');
+  background-image: url('/img/list-bg.png');
   height: 200px;
 
  }
