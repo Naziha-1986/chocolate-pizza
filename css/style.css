@@ -24,7 +24,7 @@ header{
 
 
 .slash {
-  background-image: url("img/hr-img.png");
+  background-image: url("/img/hr-img.png");
   height: 20px;
 }
 
@@ -67,7 +67,7 @@ header{
 
 
 #back{
-  background-image: url('img/list-bg.png');
+  background-image: url('/img/list-bg.png');
   height: 200px;
 
  }
