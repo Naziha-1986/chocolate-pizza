@@ -71,6 +71,10 @@ header{
   height: 200px;
 
  }
+
+ input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
  #list1{
    display: inline-block;
    /* width: 34%; */
@@ -78,6 +82,7 @@ header{
    padding: 40px;
    width: 34em;
    line-height: 20px;
+   
  }
 #list2{
  float: right;
